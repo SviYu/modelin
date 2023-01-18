@@ -1,0 +1,42 @@
+.footer{
+    width: 100%;
+    height: 53rem;
+    background: #000000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-family: 'Mukta', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.brand{
+    margin-top: 10rem;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    margin: 6rem 0;
+}
+.link, .someLink{
+    text-decoration: none;
+    color: #fff;
+    transition: all .2s;
+}
+.link:hover,
+.someLink:hover{
+    color: rgba(255, 255, 255, .5);
+}
+.some{
+    display: flex;
+    flex-direction: column;
+}
+.someLink{
+    display: flex;
+    align-items: center;
+}
+i{
+    margin: .5rem 1rem;
+    /* font-size determined in Navbar css */
+}
