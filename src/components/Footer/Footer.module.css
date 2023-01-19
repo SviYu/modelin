@@ -35,8 +35,9 @@
 .someLink{
     display: flex;
     align-items: center;
+
 }
-i{
+.someLink i{
     margin: .5rem 1rem;
-    /* font-size determined in Navbar css */
+    font-size: 3rem;
 }

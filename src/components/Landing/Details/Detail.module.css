@@ -1,0 +1,26 @@
+ .section {
+     width: 100%;
+     padding: 3rem;
+     height: auto;
+     font-family: 'Mukta', sans-serif;
+     text-align: center;
+ }
+
+ .title {
+     text-align: center;
+     font-size: 32px;
+     line-height: 1.2;
+     margin-bottom: 5rem;
+ }
+ .email{
+    font-size: 24px;
+    color: #000;
+    transition: all .2s;
+}
+.email:hover{
+    color: rgba(0, 0, 0, 0.6);
+}
+.text{
+    font-size: 16px;
+    margin: 5rem 0 7rem;
+ }

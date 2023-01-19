@@ -1,0 +1,46 @@
+ .section {
+    width: 100%;
+    padding: 0 3rem 3rem 3rem;
+    height: auto;
+    font-family: 'Mukta', sans-serif;
+}
+.title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 4rem;
+}
+i.fa-plus{
+    color: #000;
+    background: #000;
+    font-size: 17px;
+}
+.accordionFirst {
+    box-shadow: none !important;
+    border-top: 1px solid #000;
+    border-radius: 0 !important;
+    margin: 0 !important;
+}
+.accordionLast{
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    margin: 0 !important;
+}
+
+.accordion{
+    box-shadow: none !important;
+    border: none !important;
+    border-top: 1px solid #000 !important;
+    margin: 0 !important;
+}
+
+.accSum{
+    padding: 0 !important;
+    max-height: 4rem !important;
+}
+.accDet{
+    border-top: 1px solid #000 !important;
+    padding: 1rem 2rem !important;
+}
