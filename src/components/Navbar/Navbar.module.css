@@ -21,7 +21,7 @@ i{
 }
 
 .burgerMenu{
-    background-color: rgba(0, 0, 0, .95);
+    background-color: rgba(0, 0, 0, .92);
     position: fixed;
     top: 0;
     left: 0;
@@ -39,9 +39,6 @@ i{
 .link{
     text-decoration: none;
     color: #fff;
-}
-.link:hover{
-
 }
 .linkItem{
     font-weight: 400;

@@ -11,7 +11,8 @@ const active = {
    /* const menuActive =  {
       color: "blue",
       fontSize: "30px"
-    } */
+    }
+const menuIcon = document.querySelector('.menuIcon'); */
 
 
 const Navbar = () => {
@@ -20,6 +21,15 @@ const Navbar = () => {
     const toggleMenu = () => {
         setOpenMenu(!openMenu);
     }
+    /* console.log('Open', openMenu)
+    console.log('Closed', !openMenu) */
+
+   /*  const addActiveClass = () => {
+        if (openMenu === true) {
+            menuIcon.classList.add(menuActive)
+        }
+    }
+    addActiveClass(); */
 
     return (
         <>
@@ -31,7 +41,7 @@ const Navbar = () => {
             {openMenu ? (
                 <div className={s.burgerMenu}>
                     <div className={s.list}>
-                        <NavLink exact to="/" className={s.link} style={({ isActive }) =>
+                        <NavLink to="/modelin" className={s.link} style={({ isActive }) =>
                 isActive ? active : {}}>
                             <p className={s.linkItem}>Home</p>
                         </NavLink>
