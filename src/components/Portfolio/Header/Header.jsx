@@ -38,7 +38,7 @@ const Header = () => {
             {data.map((portfolios, id) => 
 
                 <a href = "/" key = { id } >
-                  <img src={portfolios.teaser} alt="Home design"/>
+                    <img src={`https://modelin.webmcdm.dk${portfolios.teaser}`} alt="Home design"/>
                   <h3>{portfolios.title}</h3>
                 </a>
 

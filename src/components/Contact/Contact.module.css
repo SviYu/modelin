@@ -1,0 +1,99 @@
+ .section {
+     width: 100%;
+     padding: 3rem;
+     height: auto;
+     font-family: 'Mukta', sans-serif;
+     text-align: center;
+ }
+
+ .title {
+     text-align: center;
+     font-size: 32px;
+     line-height: 1.2;
+     margin-bottom: 5rem;
+ }
+ .text {
+     font-size: 16px;
+     margin: 0 auto 7rem;
+     max-width: 80rem;
+ }
+ .form{
+    display: flex;
+    flex-direction: column;
+    max-width: 70rem;
+    margin: 4rem auto 9rem;
+    position: relative;
+ }
+ .email, .message{
+     border: 1px solid #707070;
+     padding: 1rem 2rem;
+     font-family: inherit;
+     font-size: 16px;
+     color: #000;
+ }
+ .message{
+     resize: none;
+     margin-top: 3rem;
+     height: 21rem;
+    }
+.email:focus, .message:focus{
+    outline: none;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+ ::placeholder{
+    color: #000;
+ }
+ .button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    padding: 1rem 2rem;
+    transition: all .2s;
+    margin-top: 3rem;
+    width: fit-content;
+ }
+ .button:hover {
+     background-color: rgba(0, 0, 0, 0.9);
+     box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.4);
+     transform: translateY(-1px);
+ }
+ .errorText{
+    color: red;
+    font-size: 1.4rem;
+ }
+ /* Answer block styling */
+ .answerBlock{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: #fff;
+    font-size: 16px;
+ }
+ .answer{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+ }
+ .answer i{
+    font-size: 9rem;
+    height: 9rem;
+    margin-bottom: 4rem;
+ }
+
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: 45px;
+    }
+}
