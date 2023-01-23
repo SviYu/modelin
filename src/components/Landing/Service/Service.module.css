@@ -22,27 +22,15 @@ i.fa-plus{
     background: #000;
     font-size: 17px;
 }
-.accordionFirst {
+.accordion {
     box-shadow: none !important;
     border-top: 1px solid #000;
     border-radius: 0 !important;
     margin: 0 !important;
 }
-.accordionLast{
-    box-shadow: none !important;
-    border-radius: 0 !important;
+.accordion:last-child{
     border-bottom: 1px solid #000;
-    border-top: 1px solid #000;
-    margin: 0 !important;
 }
-
-.accordion{
-    box-shadow: none !important;
-    border: none !important;
-    border-top: 1px solid #000 !important;
-    margin: 0 !important;
-}
-
 .accSum{
     padding: 0 !important;
     max-height: 4rem !important;
@@ -65,7 +53,7 @@ i.fa-plus{
     .accSum {
         max-height: 6rem !important;
     }
-    .accordion, .accordionLast, .accordionFirst{
+    .accordion{
         max-width: 70%;
         margin: 0 15% !important;
     }
