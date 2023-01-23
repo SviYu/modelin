@@ -1,14 +1,21 @@
  .section {
     width: 100%;
-    padding: 0 3rem 3rem 3rem;
+    padding: 5rem 3rem 10rem;
     height: auto;
     font-family: 'Mukta', sans-serif;
+    background-color: #fff;
 }
 .title {
     text-align: center;
     font-size: 32px;
     line-height: 1.2;
     margin-bottom: 4rem;
+}
+.sumTitle {
+    font-size: 18px !important;
+}
+.sumText {
+    font-size: 14px !important; 
 }
 i.fa-plus{
     color: #000;
@@ -43,4 +50,23 @@ i.fa-plus{
 .accDet{
     border-top: 1px solid #000 !important;
     padding: 1rem 2rem !important;
+}
+
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: 45px;
+    }
+    .sumTitle {
+        font-size: 26px !important;
+    }
+    .sumText {
+        font-size: 16px !important;
+    }
+    .accSum {
+        max-height: 6rem !important;
+    }
+    .accordion, .accordionLast, .accordionFirst{
+        max-width: 70%;
+        margin: 0 15% !important;
+    }
 }

@@ -9,7 +9,7 @@ const Header = () => {
         <div className={s.box}>
             <h1 className={s.title}>Modern elegant and luxurios interior</h1>
             <p className={s.undertitle}>Individual approach to the design of private apartments and public areas</p>
-            <button className={s.btn}>Se Portfolio</button>
+            <a href='/portfolio' className={s.btn}>Se Portfolio</a>
         </div>
     </section>
   )

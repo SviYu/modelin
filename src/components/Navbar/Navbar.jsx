@@ -8,12 +8,6 @@ const active = {
     color: 'slategray',
     fontSize: '35px'
     }
-   /* const menuActive =  {
-      color: "blue",
-      fontSize: "30px"
-    }
-const menuIcon = document.querySelector('.menuIcon'); */
-
 
 const Navbar = () => {
 
@@ -21,26 +15,20 @@ const Navbar = () => {
     const toggleMenu = () => {
         setOpenMenu(!openMenu);
     }
-    /* console.log('Open', openMenu)
-    console.log('Closed', !openMenu) */
-
-   /*  const addActiveClass = () => {
-        if (openMenu === true) {
-            menuIcon.classList.add(menuActive)
-        }
-    }
-    addActiveClass(); */
 
     return (
         <>
-            <div className={s.navbar}>
-                <a href="#header"><img className={s.logo} src={logo} alt="Logo" /></a>
+            <div className={`${s.navbar } ${openMenu ? s.active : ''}`}>
+                <a href="/modelin"><img className={s.logo} src={logo} alt="Logo" /></a>
                 <div className={s.menuIcon} onClick={toggleMenu}><i className="fa-solid fa-bars"></i></div>
             </div>
 
             {openMenu ? (
                 <div className={s.burgerMenu}>
-                    <div className={s.list}>
+                    <div className={s.list}
+                        /* Auto-closing of burger menu after clicking the link */
+                        onClick={() => setOpenMenu(prevState => !prevState)}>
+                        
                         <NavLink to="/modelin" className={s.link} style={({ isActive }) =>
                 isActive ? active : {}}>
                             <p className={s.linkItem}>Home</p>

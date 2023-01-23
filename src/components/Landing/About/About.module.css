@@ -18,9 +18,15 @@
 .text{
     font-size: 16px;
     line-height: 1.2;
-    margin-bottom: 4rem;
 }
 .fa-plus{
     color: #000;
     background: #000;
+}
+@media screen and (min-width: 768px) {
+   .title{
+    font-size: 45px;
+    width: 75%;
+    margin: 4rem auto;
+   }
 }

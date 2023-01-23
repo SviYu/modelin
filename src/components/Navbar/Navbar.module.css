@@ -14,8 +14,6 @@
 }
 .menuIcon{
     font-size: 3rem;
-}
-.menuIcon{
     z-index: 5;
     cursor: pointer;
 }
@@ -31,6 +29,7 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    z-index: 3;
 }
 .list{
     text-align: center;
@@ -48,7 +47,9 @@
 .linkItem:hover{
     color: rgba(255, 255, 255, .5)
 }
-.active{
-    color: blue;
-    font-size: 30px;
+.active .menuIcon{
+    color: #fff;
+    position:fixed;
+    top: 7rem;
+    right: 3rem;
 }

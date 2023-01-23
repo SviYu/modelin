@@ -1,0 +1,13 @@
+.header{
+    margin: 3rem;
+    font-family: 'Mukta', sans-serif;
+}
+.title{
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.2;
+}
+.undertext{
+    font-size: 16px;
+    text-align: center;
+}
