@@ -2,14 +2,15 @@
     {   
         "id": 0,
         "title": "Hotel Lounge with Veranda",
+        "path": "hotel-lounge-with-veranda",
         "teaser": "/assets/portfolios/01/portfolio_01.jpg",
         "cover": "/assets/portfolios/01/gallery/gallery01.jpg",
-        "headline": "Classicism and Conservatism",
-        "description": "The interior design was made for customers who love outdoor activities, hunting and fishing. The use of wood materials in furniture, tiles, paintings creates a feeling of connection with nature and natural comfort and coziness. All project management work was done online. We redesigned the flooring, replaced the doors, and used light shades of paint to expand the space of the rooms.</p><p> The general design is made in a classic style. For the walls, we added textiles and painting according to the sketch of the designer. We also added decoration elements. This entire interior was created from scratch with the individual design project.",
+        "headline": "Classicism",
+        "description": "The interior design was made for customers who love outdoor activities, hunting and fishing. The use of wood materials in furniture, tiles, paintings creates a feeling of connection with nature and natural comfort and coziness. All project management work was done online. We redesigned the flooring, replaced the doors, and used light shades of paint to expand the space of the rooms. The general design is made in a classic style. For the walls, we added textiles and painting according to the sketch of the designer. We also added decoration elements. This entire interior was created from scratch with the individual design project.",
         "placement":
             {   "year": "2020",
-                "area": "120 m2",
-                "address": "33 Owl Road, Finehead, TA24 6AF"
+                "area": "110 m2",
+                "address": "1242 Old Road, Oklahoma, TA24 6AF"
                 },
         "gallery":
             [
@@ -26,14 +27,15 @@
     {
         "id": 1,
         "title": "Bedroom in a sleeping environment",
+        "path": "bedroom-in-a-sleeping-environment",
         "teaser": "/assets/portfolios/02/portfolio_02.jpg",
         "cover": "/assets/portfolios/02/gallery/gallery02.jpg",
         "headline": "Classicism and Conservatism",
-        "description": "The interior design was made for customers who love outdoor activities, hunting and fishing. The use of wood materials in furniture, tiles, paintings creates a feeling of connection with nature and natural comfort and coziness. All project management work was done online. We redesigned the flooring, replaced the doors, and used light shades of paint to expand the space of the rooms.</p><p> The general design is made in a classic style. For the walls, we added textiles and painting according to the sketch of the designer. We also added decoration elements. This entire interior was created from scratch with the individual design project.",
+        "description": "The interior design was made for customers who love outdoor activities, hunting and fishing. The use of wood materials in furniture, tiles, paintings creates a feeling of connection with nature and natural comfort and coziness. All project management work was done online. We redesigned the flooring, replaced the doors, and used light shades of paint to expand the space of the rooms.The general design is made in a classic style. For the walls, we added textiles and painting according to the sketch of the designer. We also added decoration elements. This entire interior was created from scratch with the individual design project.",
         "placement":
-            {   "year":"2020",
-                "area":"120 m2",
-                "address": "33 Owl Road, Finehead, TA24 6AF"
+            {   "year":"2060",
+                "area":"100 m2",
+                "address": "33 Owl Road, Finehead, AB45 6ADB"
             },
         "gallery":
             [
@@ -49,14 +51,15 @@
     {
         "id": 2,
         "title": "A mood in a moody Style",
+        "path": "a-mood-in-a-moody-style",
         "teaser": "/assets/portfolios/03/portfolio_03.jpg",
         "cover": "/assets/portfolios/03/gallery/gallery03.jpg",
-        "headline": "Classicism and Conservatism",
-        "description": "The interior design was made for customers who love outdoor activities, hunting and fishing. The use of wood materials in furniture, tiles, paintings creates a feeling of connection with nature and natural comfort and coziness. All project management work was done online. We redesigned the flooring, replaced the doors, and used light shades of paint to expand the space of the rooms.</p><p> The general design is made in a classic style. For the walls, we added textiles and painting according to the sketch of the designer. We also added decoration elements. This entire interior was created from scratch with the individual design project.",
+        "headline": "Conservatism",
+        "description": "The interior design was made for customers who love outdoor activities, hunting and fishing. The use of wood materials in furniture, tiles, paintings creates a feeling of connection with nature and natural comfort and coziness. All project management work was done online. We redesigned the flooring, replaced the doors, and used light shades of paint to expand the space of the rooms. The general design is made in a classic style. For the walls, we added textiles and painting according to the sketch of the designer. We also added decoration elements. This entire interior was created from scratch with the individual design project.",
         "placement":
-            {   "year": "2020",
+            {   "year": "2040",
                 "area": "120 m2",
-                "address": "33 Owl Road, Finehead, TA24 6AF"
+                "address": "5 Maple Street, Orlando, FH23 4AC"
             },
         "gallery":
             [
@@ -72,14 +75,15 @@
     {
         "id": 3,
         "title": "Bedroom in a very Classic Style",
+        "path": "bedroom-in-a-very-classic-style",
         "teaser": "/assets/portfolios/04/portfolio_04.jpg",
         "cover": "/assets/portfolios/04/gallery/gallery04.jpg", 
-        "headline":"Classicism and Conservatism",
-        "description": "The interior design was made for customers who love outdoor activities, hunting and fishing. The use of wood materials in furniture, tiles, paintings creates a feeling of connection with nature and natural comfort and coziness. All project management work was done online. We redesigned the flooring, replaced the doors, and used light shades of paint to expand the space of the rooms.</p><p> The general design is made in a classic style. For the walls, we added textiles and painting according to the sketch of the designer. We also added decoration elements. This entire interior was created from scratch with the individual design project.",
+        "headline":"Classicism",
+        "description": "The interior design was made for customers who love outdoor activities, hunting and fishing. The use of wood materials in furniture, tiles, paintings creates a feeling of connection with nature and natural comfort and coziness. All project management work was done online. We redesigned the flooring, replaced the doors, and used light shades of paint to expand the space of the rooms. The general design is made in a classic style. For the walls, we added textiles and painting according to the sketch of the designer. We also added decoration elements. This entire interior was created from scratch with the individual design project.",
         "placement":
-            {   "year": "3020",
-                "area": "120 m2",
-                "address": "33 Owl Road, Finehead, TA24 6AF"
+            {   "year": "2100",
+                "area": "150 m2",
+                "address": "455 Flower Road, Tulsa"
             },
         "gallery":
             [

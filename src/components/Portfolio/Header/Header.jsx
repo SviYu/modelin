@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import s from './Header.module.css';
-/* import portBg1 from './../../../assets/portfolios/01/portfolio_01.jpg'; */
 
 const Header = () => {
     const [data, setData] = useState([]);
@@ -11,7 +11,6 @@ const Header = () => {
             .then( response => response.json())
             .then( response => {
                 setData(response);
-                console.log('response', response)
             })
     }, [])
 
@@ -20,29 +19,22 @@ const Header = () => {
             <h1 className={s.title}>Portfolio</h1>
             <p className={s.undertext}>Experience of over 10 years of successful projects on creating unique and modern interior designs all over the world</p>
 
-            {/* <div className={s.imageWrapper}>
-              <a href='/'>
-                  <img src={portBg1} alt="Hotel Lounge with Veranda" />
-                  <div className={s.overlayContent}>
-                      <div className={s.overlay}></div>
-                      <i class="fa-solid fa-plus"></i>
-                      <h3>
-                          {data.map((item, id) => 
-                              item.title)
-                          }
-                      </h3>
-                  </div>
-              </a>
-          </div> */}
+            <div className={s.wrapper}>
 
-            {data.map((portfolios, id) => 
+                {data.map((portfolios, id) => 
+                    <Link to={portfolios.path} key={id} className={s.link}>
+                        <div className={s.imageBox}>
+                            <img src={`https://modelin.webmcdm.dk${portfolios.teaser}`} className={s.image} alt="Home design" />
 
-                <a href = "/" key = { id } >
-                    <img src={`https://modelin.webmcdm.dk${portfolios.teaser}`} alt="Home design"/>
-                  <h3>{portfolios.title}</h3>
-                </a>
+                            <div className={s.overlay}>
+                                <i className="fa-solid fa-plus"></i>
+                                <h3 className={s.imgTitle}>{portfolios.title}</h3>
+                            </div>
+                        </div>
+                    </Link>
+                )}
 
-          )}
+            </div>
 
 
 

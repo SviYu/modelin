@@ -11,3 +11,49 @@
     font-size: 16px;
     text-align: center;
 }
+.wrapper{
+margin-top: 3rem;
+}
+
+.imageBox{
+   max-width: 50rem;
+   margin-bottom: 3rem;
+  /* transition: all 0.2s ease-in-out; */
+}
+.link{
+  width: fit-content;
+  display: block;
+  position: relative;
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 5px;
+    right: 0;
+    background-color: rgba(0,0,0,.7);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.2s ease-in;
+}
+.link:hover .overlay{
+    opacity: 1;
+}
+.overlay i{
+    font-size: 9rem;
+}
+.imgTitle{
+    font-size: 16px;
+    margin-top: 2rem;
+}
+@media screen and (min-width: 768px) {
+    
+}
