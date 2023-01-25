@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react';
-import { Route, Routes } from 'react-router-dom'
-import SubportfolioPage from './SubportfolioPage';
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom'
+import SubportfolioPage from './SubportfolioPage.jsx';
 
 const Subportfolio = () => {
     const [data, setData] = useState('');
@@ -18,10 +18,12 @@ const Subportfolio = () => {
   return (
       <>
           {data.map((portfolio) => 
-            <Routes>
+             <Router>
                   <Route path={portfolio.path} element={ <SubportfolioPage /> } />
-            </Routes>
+              </Router>
+               
           
+            
           
           )}
       </>

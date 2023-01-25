@@ -2,10 +2,10 @@ import React from 'react'
 import Detail from '../Landing/Details/Detail'
 import Header from './Header/Header.jsx'
 
-const Portfolio = () => {
+const Portfolio = ( {portfolioDetails} ) => {
   return (
       <div>
-          <Header />
+        <Header portfolioDetails={ portfolioDetails } />
           <Detail />
     </div>
   )
