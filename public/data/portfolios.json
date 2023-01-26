@@ -14,8 +14,8 @@
                 },
         "gallery":
             [
-                {   "image": "/assets/portfolios/01/gallery/gallery01.jpg"  },
-                {   "image": "/assets/portfolios/01/gallery/gallery02.jpg"  },
+                {   "image":"/assets/portfolios/01/gallery/gallery01.jpg"  },
+                {   "image":"/assets/portfolios/01/gallery/gallery02.jpg"  },
                 {   "image":"/assets/portfolios/01/gallery/gallery03.jpg"   },
                 {   "image":"/assets/portfolios/01/gallery/gallery04.jpg"   },
                 {   "image":"/assets/portfolios/01/gallery/gallery05.jpg"   },

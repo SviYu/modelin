@@ -20,9 +20,7 @@ function App() {
         setPortfolioDetails(response)
         console.log('Test', response)
     })
-  },[])
-
-  
+  },[])  
 
   return (
     <BrowserRouter>
@@ -30,15 +28,12 @@ function App() {
       <Routes>
         <Route path='/modelin' element={<Landing />} />
         
-        <Route path='/portfolio' element={<Portfolio portfolioDetails={portfolioDetails} />} >
+        <Route path='/portfolio/' element={<Portfolio portfolioDetails={portfolioDetails} />} />
 
-          {portfolioDetails.map((portfolio, id) => 
-
-            <Route path={`/portfolio${portfolio.path}`} key={id} element={ <SubportfolioPage portfolioDetails={portfolioDetails}/>} />
-            
-           )}
-          
-        </Route>
+        <Route path='/portfolio/:portfolioID'
+          element={
+            <SubportfolioPage portfolioDetails={portfolioDetails} />
+          } />
 
         <Route path='/about' element={<About />} />
 

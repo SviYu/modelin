@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import s from './Header.module.css';
 
 
-const Header = ( {portfolioDetails} ) => {
+const Header = ({ portfolioDetails }) => {
         
     return (
         <div className={s.header}>
@@ -12,8 +12,10 @@ const Header = ( {portfolioDetails} ) => {
 
             <div className={s.wrapper}>
 
-                {portfolioDetails.map((portfolio, id) => 
-                    <Link to={`/portfolio${portfolio.path}`} key={id} className={s.link}>
+                {portfolioDetails.map((portfolio, id) => {
+
+                    return <Link to={`/portfolio/${portfolio.path}`} key={id} className={s.link}>
+                  
                         <div className={s.imageBox}>
                             <img src={`https://modelin.webmcdm.dk${portfolio.teaser}`} className={s.image} alt="Home design" />
 
@@ -22,7 +24,9 @@ const Header = ( {portfolioDetails} ) => {
                                 <h3 className={s.imgTitle}>{portfolio.title}</h3>
                             </div>
                         </div>
+
                     </Link>
+                    }
                 )}
                 
 

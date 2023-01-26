@@ -6,7 +6,7 @@ const Portfolio = ( {portfolioDetails} ) => {
   return (
       <div>
         <Header portfolioDetails={ portfolioDetails } />
-          <Detail />
+        <Detail />
     </div>
   )
 }
