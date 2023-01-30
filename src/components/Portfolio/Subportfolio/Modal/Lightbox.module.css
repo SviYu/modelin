@@ -1,0 +1,7 @@
+.overlay{
+    background: rgba(0,0,0,0.2,);
+}
+.dismiss{
+    font-size: 20px;
+    font-weight: bold;
+}

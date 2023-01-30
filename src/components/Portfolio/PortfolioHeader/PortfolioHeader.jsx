@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import s from './Header.module.css';
+import s from './PortfolioHeader.module.css';
 
 
 const Header = ({ portfolioDetails }) => {
@@ -12,13 +12,13 @@ const Header = ({ portfolioDetails }) => {
 
             <div className={s.wrapper}>
 
-                {portfolioDetails.map((portfolio, id) => {
+                {portfolioDetails.map((portfolio) => {
 
-                    return <Link to={`/portfolio/${portfolio.path}`} key={id} className={s.link}>
+                    return <Link to={`/portfolio/${portfolio.path}`} key={portfolio.id} className={s.link}>
                   
                         <div className={s.imageBox}>
                             <img src={`https://modelin.webmcdm.dk${portfolio.teaser}`} className={s.image} alt="Home design" />
-
+                            
                             <div className={s.overlay}>
                                 <i className="fa-solid fa-plus"></i>
                                 <h3 className={s.imgTitle}>{portfolio.title}</h3>

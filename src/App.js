@@ -14,11 +14,11 @@ function App() {
   const [portfolioDetails, setPortfolioDetails] = useState([]);
 
   useEffect(() => {
-    fetch('./modelin/data/portfolios.json')
+    fetch('http://localhost:3000/modelin/data/portfolios.json')
       .then(response => response.json())
       .then(response => {
         setPortfolioDetails(response)
-        console.log('Test', response)
+        console.log('Test App', response)
     })
   },[])  
 
